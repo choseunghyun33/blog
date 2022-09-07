@@ -21,7 +21,7 @@
 	// ----------------------------------------------------------- 서비스
 	// 1. DB 연동
 	Class.forName("org.mariadb.jdbc.Driver");
-	String url = "jdbc:mariadb://localhost:3306/blog";
+	String url = "jdbc:mariadb://3.34.240.0:3306/blog";
 	String dbuser = "root";
 	String dbpw = "1234";
 	Connection conn = DriverManager.getConnection(url, dbuser, dbpw);

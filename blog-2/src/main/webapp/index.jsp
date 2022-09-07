@@ -47,11 +47,11 @@ a {
 					<table class="table table-hover table-striped">
 						<tr>
 							<td>id</td>
-							<td><input type="text" name="id"></td>
+							<td><input type="text" name="id" value="admin"></td>
 						</tr>
 						<tr>
 							<td>pw</td>
-							<td><input type="password" name="pw"></td>
+							<td><input type="password" name="pw" value="1234"></td>
 						</tr>
 					</table>
 					<button type="submit" class="btn btn-outline-dark">로그인</button>

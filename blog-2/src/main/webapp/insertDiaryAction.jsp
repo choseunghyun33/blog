@@ -16,7 +16,7 @@
 	
 	/////////////////////////////////////////////////////////////////////////////////////////////
 	String driver = "org.mariadb.jdbc.Driver";
-	String url = "jdbc:mariadb://localhost:3306/blog";
+	String url = "jdbc:mariadb://3.34.240.0:3306/blog";
 	String id = "root";
 	String pw = "1234";
 	
